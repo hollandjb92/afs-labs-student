@@ -22,7 +22,7 @@ spec:
       - envFrom:
         - secretRef:
             name: db-secret
-        name: <NAME>
+        name: app-deployment
         image: registry.dev.afsmtddso.com/jholland-harbor-project/app:971c881-0e4885c
         ports:
         - containerPort: 5000
